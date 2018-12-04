@@ -3,4 +3,5 @@ language: java
 jdk:
     - oraclejdk8
 
+build: true
 script: mvn clean test
