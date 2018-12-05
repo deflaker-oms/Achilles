@@ -7,7 +7,7 @@ build: true
 
 env:
   global:
-    - FIREBASE_KEY=AIzaSyDU7I6pnN322BvRNN24jRX52owAvuHH1K4 MAVEN_OPTS="-Xmx3000m" JAVA_OPTS: "'-Xms512m -Xmx2g'"
+    - FIREBASE_KEY=AIzaSyDU7I6pnN322BvRNN24jRX52owAvuHH1K4 MAVEN_OPTS="-Xmx3000m" JAVA_OPTS="'-Xms512m -Xmx2g'"
 before_install:
   - unset TRAVIS
   - wget http://www.deflaker.org/maven/apache-maven-3.3.9.zip
